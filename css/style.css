@@ -1,0 +1,554 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Museo 300;
+    src: url('../font/Museo 300.otf');
+}
+
+@font-face {
+    font-family: Museo 500;
+    src: url('../font/Museo 500.otf');
+}
+
+@font-face {
+    font-family: Museo 700;
+    src: url('../font/Museo 700.otf');
+}
+
+@font-face {
+    font-family: Oswald-Bold;
+    src: url('../font/Oswald-Bold.ttf');
+}
+
+body {
+    font-family: 'Museo 700';
+    background-color: #fff;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    background-size: cover;
+    margin: 0 auto;
+}
+ 
+
+p,
+a{
+    font-size: 16px !important;
+    color: #463f3a;
+    font-family: 'Museo 500';
+    text-decoration: none;
+    font-size: 2.5em;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 30px !important;
+    font-family: 'Oswald-Bold';
+    color: #463f3a;
+    font-size: 2.5em;
+    display: inline-block;
+}
+
+h2 {
+    font-size: 20px !important;
+    font-family: 'Oswald-Bold';
+    color: #fff;
+    font-size: 2.5em;
+    display: inline-block;
+}
+
+h3 {font-size: 18px !important;
+ color: #463f3a;
+    font-family: 'Museo 500';
+    font-size: 2.5em;
+    display: inline-block;
+
+}
+
+h4 {
+    font-size: 18px !important;
+   color: #463f3a;
+    font-family: 'Museo 300';
+    font-size: 2.5em;
+    display: inline-block;
+}
+h5 {
+    font-size: 14px !important;
+    color: #463f3a;
+    font-family: 'Museo 300';
+    font-size: 2.5em;
+    display: inline-block;
+    margin: 13px 15px;
+}
+
+h6 {font-size: 60px !important;
+ color: #fff;
+    font-family: 'Oswald-Bold';
+    font-size: 2.5em;
+    display: inline-block;
+
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+a:hover {
+     text-decoration: none;
+    
+}
+
+.container {
+    max-width: 1180px;
+}
+
+/**************header-section********/
+
+.header-section {
+
+
+}
+.header-section li{
+    display: inline-block ;
+ }
+.header-section .container {
+}
+
+.upperHeader{width: 100%;
+
+}
+
+.support{ 
+
+}
+.support h5:first-child{ 
+margin-left: 0;
+}
+.separators{display: inline-block;
+
+}
+.separators h5:last-child{
+    margin-right: 0
+
+}
+.account{
+    
+
+}
+
+header {
+    background-color: #f5f6f1;
+
+}
+
+
+.logo {
+    margin: 55px 0;
+    
+
+}
+
+nav {
+    margin: 71px 0;
+}
+
+nav a {
+
+}
+
+nav .main-nav h4{ margin: 0 20px;
+
+}
+
+nav .main-nav li a {
+
+}
+
+.first-child { margin-left: 0 !important;
+ padding-left: 0 !important;
+}
+
+nav .main-nav li:after {
+     content: " / ";
+     color: #f55856;
+     font-weight: 900;
+     font-size: 18px;
+     font-family: 'Museo 500';
+     }
+
+      nav .main-nav li:last-child:after {
+     content: " ";
+ }
+.last-child {
+    margin-right: 0 !important;
+    padding-right: 0 !important;
+}
+
+.cart{        margin: 53px 0;
+    text-align: right;
+
+}
+
+.cart h4   {
+
+}
+
+.cart h4 span{    font-weight: 700;
+
+
+}
+
+.cart a{
+
+}
+
+.cart a img{
+
+}
+
+/**************header-section********/
+
+/**************banner-section********/
+.banner-section {margin: 40px 0 20px 0;
+ 
+}
+
+.banner-section .container{  background: url("../img/banner.jpg") no-repeat center center / cover ;
+       width: 100%;
+    max-height: 100vh;
+
+
+}
+
+.contan{
+    padding-top: 75px;
+    padding-bottom: 60px;
+}
+
+.contan ul{
+
+padding: 0 70px;
+}
+
+.contan ul li{
+
+padding: 10px 0;
+}
+
+.contan ul li h6{
+
+margin: 0;
+}
+
+.logo-1{    padding: 180px 0;
+    text-align: -webkit-right;
+
+}
+
+.logo-1 a img{
+margin: 0;
+}
+
+
+/**************banner-section********/
+
+/**************featuredBoxes-section********/
+
+.featuredBoxes-section  {
+margin-bottom: 40px;
+}
+
+.featuredBoxes-section .container {}
+
+.featuredBoxes-1{background-color: #f5f6f1;
+    text-align: center;
+
+}
+
+.featuredBoxes-1 p{
+margin-top: 20px;
+}
+
+
+.featuredBoxes-1 h1{
+padding-top: 30px;
+margin-bottom: 0;
+    display: block;
+}
+
+.featuredBoxes-1 p span{
+    color: #f55856;
+    font-family: 'Museo 500';
+}
+
+/**************featuredBoxes-section********/
+
+/**************categories-section********/
+
+.categories-section {
+    background-color: #f8f8f8;
+    padding-bottom: 40px;
+
+
+}
+
+.categories-section:before {
+    content: " ";
+}
+
+.categories-section:after {
+    content: " ";
+}
+
+.categories-section .container {
+
+}
+
+.categories-section a{color: #f55856;
+padding-left: 20px;
+}
+
+.categories-section h1{
+    padding-left: 20px;
+}
+
+.categories-section p{
+padding-left: 20px;
+    font-style: italic;
+}
+
+/**************categories-section********/
+
+/**************latestProducts-section********/
+
+.latestProducts-section{
+padding-bottom: 40px;
+}
+
+.latestProducts-section p{
+color: #929292;
+}
+
+
+.latestProducts-section a{color: #fff;
+    background-color: #463f3a;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 20px;
+     font-family: 'Oswald-Bold';
+
+}
+
+.latestProducts-section h2{
+font-family: 'Museo 700';
+    font-weight: 600;
+    color: #463f3a;
+}
+
+.latestProducts-section h4{
+display: block;
+}
+
+/**************latestProducts-section********/
+
+/**************featuredProducts-section********/
+
+.featuredProducts-section{background-color: #f8f8f8;
+
+}
+
+/**************featuredProducts-section********/
+
+/**************recentPosts-section********/
+
+.recentPosts-section{
+    padding-top: 40px;
+    padding-bottom: 90px;
+}
+
+.recentPosts-section h4{
+    font-family: 'Museo 700';
+    font-weight: 600;
+ 
+}
+
+.recentPosts-section p{
+font-family: 'Museo 300';
+    color: #929292;
+}
+
+.recentPosts-section a{color: #f55856;
+
+}
+
+/**************recentPosts-section********/
+
+/**************quote-section********/
+
+.quote-section{
+background-color: #f8f8f8;
+text-align: center;
+padding: 50px 0;
+}
+
+.quote-section h1{font-size: 36px;
+    display: block;
+
+}
+
+.quote-section p{
+color: #a2a2a1;
+}
+
+.quote-section p span{
+color: #f55856;
+}
+
+
+/**************quote-section********/
+
+/**************footer-section********/
+
+
+.footer-section {
+
+}
+
+.footer-section .container {}
+
+.footer {
+    background-color: #463f3a ;
+
+}
+.footer nav .main-nav h4{ margin: 0 20px; color: #fff;
+
+}
+.footer nav{
+        margin-top: 85px
+
+}
+
+.footer nav .main-nav{margin-bottom: 30px;
+
+}
+.footer nav .main-nav li{
+    display: inline-block;
+}
+.footer nav h5{
+    color: #fff;
+    margin-bottom: 75px;
+}
+.footer .logo{
+margin-top: 85px
+}
+.footer nav span{
+    font-family: 'Museo 300';
+    font-size: 14px;
+    color: #f55856;
+}
+
+.footer nav
+
+.footer>.container>.row>.col-lg-offset-1>.cart>a{    background-color: #3c3631;
+
+}
+
+.g a{
+background-color: #3c3631;
+margin-top: 85px
+}
+.copyright {
+   
+}
+
+.copyright-1 {
+    padding: 20px 0;
+   
+}
+
+.home {
+  
+}
+.copyright-1 p{
+
+}
+
+.copy {
+text-align: right;
+}
+.copyright-1 p span {
+ color: #f55856;
+}
+
+.copyright-1 a {
+padding: 0 10px;
+}
+
+.border-double{border-top: 2px #463F3A;border-top-style: solid;margin-top: 3%;border-bottom: 4px double #463F3A;width: 37%;}
+
+.title-copy{    text-align: center;
+
+}
+
+/**************footer-section********/
+
+
+
+.vip{
+    padding: 0;
+    margin-top: 35px;
+}
+.box{
+    margin: 0 7px;
+    background-color: #fff;
+    padding-bottom: 20px
+}
+
+.first-child-1 {
+ padding-right: 7px !important;
+}
+.last-child-1 {
+    padding-left: 7px !important;
+}
+
+.box-1{
+margin-right: 10px !important;
+margin-left: 5.5px;
+padding-bottom: 20px;
+}
+
+.box-2{
+margin-left: 10px !important;
+margin-right: 5.5px;
+padding-bottom: 20px;
+}
+
+.box-3{
+    margin: 0 7px;
+    padding-bottom: 20px
+}
+
+.first-child-2 {
+ padding-right: 8.5px !important;
+}
+.last-child-2 {
+    padding-left: 8.5px !important;
+}
+.text{
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    width: 26%;
+}
+.text-1{
+    padding: 0 !important;
+}
